@@ -1,0 +1,7 @@
+.test_div{
+    width: 100px;
+    height: 100px;
+    @include pos_a(trbl, 0);
+    margin: auto;
+    @include border(1px, map-get($border_color , primary));
+}
